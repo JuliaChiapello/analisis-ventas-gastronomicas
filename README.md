@@ -44,8 +44,9 @@ analisis_ventas_gastronomicas/
    ```
 
 3. Ejecutar el script:
-
-python analisis_ventas.py
+```
+   python analisis_ventas.py
+```
 
 4. Se mostrarán gráficos e información detallada en consola:
 
