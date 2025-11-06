@@ -25,13 +25,14 @@ A partir de esos datos se generan métricas e informes visuales que permiten res
 
 ## 🧩 Estructura del proyecto
 
+```
 analisis_ventas_gastronomicas/
 |---ventas.csv # Datos de ejemplo
 |---analisis_ventas.py # Script principal del análisis
 |---dashboard_interactivo.py #Script que muestra dashboard interactivo
 |---README.md # Documentación del proyecto
 
-
+```
 ---
 
 ## 🚀 Ejecución del proyecto
