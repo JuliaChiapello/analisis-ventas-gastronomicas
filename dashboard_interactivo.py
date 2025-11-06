@@ -16,7 +16,7 @@ df["categoria"] = df["categoria"].str.strip()
 # --- Crear columna de ingresos ---
 df["ingresos"] = df["precio"] * df["cantidad"]
 
-# --- 1️⃣ Ingresos totales por producto ---
+# --- Ingresos totales por producto ---
 ventas_producto = df.groupby("producto")["ingresos"].sum().reset_index()
 
 fig1 = px.bar(
@@ -28,7 +28,7 @@ fig1 = px.bar(
     text_auto=".2s"
 )
 
-# --- 2️⃣ Tendencia de ingresos diarios ---
+# --- Tendencia de ingresos diarios ---
 ventas_diarias = df.groupby("fecha")["ingresos"].sum().reset_index()
 
 fig2 = px.line(
@@ -40,7 +40,7 @@ fig2 = px.line(
 )
 fig2.update_traces(line_color="orange", line_width=3)
 
-# --- 3️⃣ Promedio de ingresos por categoría ---
+# --- Promedio de ingresos por categoría ---
 promedio_categoria = df.groupby("categoria")["ingresos"].mean().reset_index()
 
 fig3 = px.bar(
