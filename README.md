@@ -72,7 +72,7 @@ Estas visualizaciones permiten detectar patrones de consumo y optimizar estrateg
 
 * Análisis y limpieza de datos con Pandas
 * Generación de insights y métricas descriptivas
-* Creación de visualizaciones con Matplotlib y Seaborn
+* Creación de visualizaciones con Matplotlib, Seaborn y Plotly
 * Comunicación clara de resultados (Data Storytelling)
 
 ## 🔍 Insights del análisis de ventas
