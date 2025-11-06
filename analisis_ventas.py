@@ -44,9 +44,9 @@ if 'categoria' in df.columns:
 else:
     promedio_categoria = pd.Series(dtype=float)
 
-print(f"💰 Ingreso total del período: ${total_ingresos:,.2f}")
-print(f"🏆 Producto más rentable: {producto_mas_vendido}")
-print(f"📅 Día con mayor venta: {ventas_por_dia.idxmax().date()}\n")
+print(f"Ingreso total del período: ${total_ingresos:,.2f}")
+print(f"Producto más rentable: {producto_mas_vendido}")
+print(f"Día con mayor venta: {ventas_por_dia.idxmax().date()}\n")
 
 # === VISUALIZACIÓN  ===
 # --- Configuración general ---
@@ -61,15 +61,15 @@ fig.suptitle(
     fontsize=22,
     fontweight='bold',
     color='#2c3e50',
-    y=0.97  # 🔹 bajamos un poco para dejar más aire arriba
+    y=0.97  # bajamos un poco para dejar más aire arriba
 )
 
 # --- 1. Ingresos por producto ---
 sns.barplot(x=ventas_por_producto.index, y=ventas_por_producto.values, palette="Blues_d", ax=axes[0])
-axes[0].set_title("Ingresos totales por producto", fontsize=14, loc='left', pad=10, color='#34495e')  # 🔹 menos pad
+axes[0].set_title("Ingresos totales por producto", fontsize=14, loc='left', pad=10, color='#34495e')  
 axes[0].set_xlabel("")
 axes[0].set_ylabel("Ingresos (ARS)")
-axes[0].tick_params(axis='x', rotation=0)  # 🔹 etiquetas rectas
+axes[0].tick_params(axis='x', rotation=0)  # etiquetas rectas
 
 # --- 2. Tendencia diaria de ingresos ---
 sns.lineplot(x=ventas_por_dia.index, y=ventas_por_dia.values, marker='o', color='#e67e22', linewidth=2, ax=axes[1])
@@ -88,7 +88,7 @@ axes[2].tick_params(axis='x', rotation=0)
 
 # --- Ajustes de espaciado ---
 plt.subplots_adjust(
-    top=0.88,     # 🔹 más espacio entre el título general y el primer gráfico
+    top=0.88,     # más espacio entre el título general y el primer gráfico
     hspace=0.70,  # separación equilibrada entre gráficos
     bottom=0.06
 )
