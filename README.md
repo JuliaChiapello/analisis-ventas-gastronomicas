@@ -60,7 +60,11 @@ Al ejecutar el análisis se generan visualizaciones que ayudan a comprender mejo
 
 Estas visualizaciones permiten detectar patrones de consumo y optimizar estrategias de venta.
 
+## Matplotlib y Seaborn
+
 <img width="4056" height="6697" alt="dashboard_ventas" src="https://github.com/user-attachments/assets/0089cdac-bccd-43f0-b33d-913968581eb3" />
+
+## Plotly
 
 <img width="1100" height="1200" alt="newplot" src="https://github.com/user-attachments/assets/67a11130-cb7c-4751-b135-c6b594f1c5eb" />
 
