@@ -41,6 +41,7 @@ analisis_ventas_gastronomicas/
    ```bash
 
    pip install pandas matplotlib seaborn numpy plotly
+   ```
 
 3. Ejecutar el script:
 
