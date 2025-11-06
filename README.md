@@ -19,7 +19,7 @@ A partir de esos datos se generan métricas e informes visuales que permiten res
 - **NumPy** → Operaciones matemáticas y manejo eficiente de arreglos  
 - **Matplotlib** → Creación de gráficos base y visualizaciones personalizadas  
 - **Seaborn** →  Mejora estética y visualización estadística avanzada
-- **Ploty** →  Creación de dashboards y gráficos interactivos para explorar los datos dinámicamente 
+- **Plotly** →  Creación de dashboards y gráficos interactivos para explorar los datos dinámicamente 
 
 ---
 
