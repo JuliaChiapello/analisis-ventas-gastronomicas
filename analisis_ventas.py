@@ -48,11 +48,7 @@ print(f"💰 Ingreso total del período: ${total_ingresos:,.2f}")
 print(f"🏆 Producto más rentable: {producto_mas_vendido}")
 print(f"📅 Día con mayor venta: {ventas_por_dia.idxmax().date()}\n")
 
-# === VISUALIZACIÓN FINAL MEJORADA ===
-
-import matplotlib.pyplot as plt
-import seaborn as sns
-
+# === VISUALIZACIÓN  ===
 # --- Configuración general ---
 sns.set(style="whitegrid", font_scale=1.1)
 
